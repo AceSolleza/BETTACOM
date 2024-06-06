@@ -23,7 +23,7 @@ header h1 {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #062c84;
+    background-color: #490445;
     padding-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1;
@@ -101,7 +101,7 @@ header h1 {
 }
 
 .content form input[type="submit"] {
-    background-color: #333;
+    background-color: #333333;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -118,7 +118,7 @@ header h1 {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #4f035b;
+    background-color: #03445b;
     padding-top: 20px;
     display: flex;
     flex-direction: column;
@@ -250,3 +250,113 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.message {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.message h3 {
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.announcement {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.announcement h3 {
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+

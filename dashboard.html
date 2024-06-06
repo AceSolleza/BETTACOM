@@ -159,7 +159,7 @@
             <li><a href="#" onclick="showContent('notifications')"><i class="fas fa-bell"></i> Notifications</a></li>
             <li><a href="#" onclick="showContent('customers')"><i class="fas fa-users"></i> Customer Management</a></li>
             <li><a href="#" onclick="showContent('finance')"><i class="fas fa-chart-line"></i> Financial Reporting</a></li>
-            <!-- Add more menu items as needed -->
+            <li><a href="#" onclick="showContent('message')"><i class="fas fa-chart-line"></i> Message</a></li>
         </ul>
         <div class="search">
             <input type="text" placeholder="Search...">
@@ -208,7 +208,23 @@
         <p>Net Profit: Php. 3000</p>
         <!-- Add more financial data here -->
     </div>
-    
+    <div class="content" id="message" style="display: none;">
+        <h2>BETTACOM MESSAGE</h2>
+        <main>
+            <section id="complaints">
+                <h2>Submit a Message</h2>
+                <form id="complaint-form">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Complaint:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+    </div>
     
     <script src="dashboard.js"></script>
 </body>
